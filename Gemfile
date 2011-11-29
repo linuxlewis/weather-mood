@@ -27,6 +27,7 @@ group :test do
 end
 
   gem 'heroku'
+  gem 'pg'
 
 #gem 'yahoo-weather'
 
