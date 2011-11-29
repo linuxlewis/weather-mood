@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weathermood |  <%= @title %></title>
+  <%= render 'layouts/stylesheets' %>
+  <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <%= javascript_include_tag "application" %>
+  <script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+
+</head>
+<body>
+<div data-role="page"> 
+<%= yield %>
+<footer data-role="footer" style="text-align:center">
+  <p>made by <a href="http://www.twitter.com/#!/linuxlewis" target="_blank">@linuxlewis</a></p> 
+</footer>
+
+</div> <!-- page -->
+</body>
+</html>

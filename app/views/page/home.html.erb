@@ -1,0 +1,14 @@
+
+	<div data-role="header">
+		<h1>Weather Mood</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" style="text-align:center; min-height:400px;">	
+        <h2>How will the <span style="color:#00BFFF">weather</span> affect you?<h2>
+        <%= image_tag("cloud.png") %>
+        <h4 style="margin-top:50px">In some places, the weather is different everyday. Sometimes the weather never changes. Before you leave the house see how the weather will make you feel </h4>
+        <div style="margin-top:75px"></div>
+        <br>
+        <%= link_to "Start now", mood_path, "data-role"=>"button", "data-transition"=>"fade" %>
+	</div><!-- /content -->
+

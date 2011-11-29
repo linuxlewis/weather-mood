@@ -1,0 +1,13 @@
+
+	<div data-role="header" data-position="inline">
+        <%= link_to "Home", root_path, "data-icon"=>"arrow-l" %>
+		<h1>Weather Mood</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" style="background:<%= @tempcolor %>; min-height:400px;">	
+    <div style="text-align:center">
+    <h1>Mood for <%= @city %></h1>
+    <h2>based on <%= @temp %></h2>
+    </div>
+	</div><!-- /content -->
+
