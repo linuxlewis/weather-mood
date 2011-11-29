@@ -5,7 +5,7 @@ gem 'rails', '3.1.3'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'sqlite3', :group => :development
 
 
 # Gems used only for assets and not required
@@ -26,6 +26,8 @@ group :test do
   gem 'autotest-growl', '0.2.9'
 
 end
+
+  gem 'heroku'
 
 #gem 'yahoo-weather'
 
